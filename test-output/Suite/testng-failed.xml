@@ -3,9 +3,9 @@
 <suite name="Failed suite [Suite]" parallel="none">
   <test name="Test(failed)" parallel="none" preserve-order="true">
     <classes>
-      <class name="clientbased.FirstTest">
+      <class name="ownerportal.ProjectPage">
         <methods>
-          <include name="test"/>
+          <include name="createproject"/>
         </methods>
       </class>
     </classes>
