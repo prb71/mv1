@@ -16,12 +16,12 @@ public	WebDriver driver;
 
 		Properties props = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"//home//hp-021//Desktop//javaselenium//Productively//src//main//java//data.proprties");
+				"//home//hp-004//maven//maven//src//main//java//data.proprties");
 		props.load(fis);
 		String browserName = props.getProperty("browser");
 
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/hp-021/Downloads/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/home/hp-004/Downloads/chromedriver");
 			 driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			
